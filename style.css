@@ -1,0 +1,395 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 30px 0 20px 0;
+}
+
+h4 {
+  font-size: 70px;
+  width: fit-content;
+  padding: 25px 0 20px 0;
+  margin: 0;
+}
+
+p {
+  margin: 20px 15px;
+}
+
+li {
+  margin: 8px;
+}
+
+/* -----------------HEADER----------------- */
+.header-class > h1 {
+  background-image: url(./images/01_images/back_header.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  font-size: 150px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  color: black;
+  margin: 0;
+  line-height: 200px;
+
+}
+/* -----------------END HEADER----------------- */
+
+/* -----------------NAVIGAGTION BAR----------------- */
+.navigation-bar-ul {
+  background-color: white;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.navigation-bar-ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 40px;
+  padding: 2px 0;
+}
+
+.navigation-bar-ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+/* -----------------END NAVIGATION BAR----------------- */
+
+/* -----------------HOME SECTION----------------- */
+.div-proof-1 {
+  background-image: url("./images/01_images/00.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 45%;
+}
+
+.div-proof-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+/* -----------------END HOME SECTION----------------- */
+
+/* -----------------IMAGE SECTION----------------- */
+.image-home-format {
+  border: 10px solid black;
+  height: 680px;
+  margin: 0px auto;
+}
+/* -----------------IMAGE SECTION----------------- */
+
+/* -----------------BIO SECTION----------------- */
+.text-bio {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo-bio {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+}
+/* -----------------END BIO SECTION----------------- */
+
+/* -----------------WORK SECTION----------------- */
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: black;
+}
+
+.flex-box-texto {
+  color: white;
+  background-color: black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 35px;
+}
+
+.flex-box-button {
+  background-color: black;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  height: 200px;
+}
+
+.flex-box-country {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.flex-box-country:hover {
+  background-image: url("./images/01_images/back_header.PNG");
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+  color: white;
+}
+
+.link-gallery:link,
+.link-gallery:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* -----------------END WORK SECTION----------------- */
+
+/* -----------------GALLERY SECTION----------------- */
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 33.33%;
+  width: 33.33%;
+}
+/* -----------------END GALLERY SECTION----------------- */
+
+/* -----------------LINK SHOP----------------- */
+.link-shop {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.link-shop:hover {
+  text-decoration: underline;
+}
+
+.link-shop:visited {
+  color: black;
+}
+/* -----------------END LINK SHOP----------------- */
+
+/* -----------------CONTACT SECTION----------------- */
+.box-section-contact {
+  background-color: black;
+  color: white;
+  height: fit-content;
+}
+
+.format-container {
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.format-contact-button {
+  background-image: url("./images/01_images/back_header.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  margin: 10px 30px;
+  padding: 10px;
+  height: 120px;
+  width: 120px;
+}
+
+.format-contact-icon {
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.format-contact-icon:hover {
+  border: 1px solid black;
+}
+
+.imagex {
+  width: 60px;
+}
+/* -----------------END CONTACT SECTION----------------- */
+
+/* ---------------------------------------------------SECUNDARY WEBPAGES--------------------------------------------------- */
+/* -----------------FORM (SHOP)----------------- */
+.form-paragraph {
+  margin: 0;
+}
+
+form {
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+label {
+  font-weight: bold;
+  margin: 2px 5px;
+}
+
+input,
+select,
+textarea {
+  font-weight: normal;
+  margin: 2px 5px;
+}
+
+.class-button {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  width: fit-content;
+  margin: 5px auto;
+}
+
+.class-button:hover {
+  background-color: grey;
+  border: 1px solid white;
+  font-size: 15px;
+  font-weight: bold;
+  width: fit-content;
+  padding: 1px 3px;
+}
+/* -----------------END FORM (SHOP)----------------- */
+
+/* -----------------IFRAME----------------- */
+.iframe-format {
+  border: 1px solid black;
+  background-color: cornflowerblue;
+  border-radius: 3px;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.iframe-button-backpage {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: grey;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.iframe-button-backpage:hover {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: grey;
+  font-weight: bold;
+  color: white;
+}
+/* -----------------FINAL IFRAME----------------- */
+
+/* -----------------SHOP TABLE----------------- */
+th {
+  color: white;
+  background-color: black;
+  height: 30px;
+}
+.main-table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px auto;
+  table-layout: fixed;
+  width: 90%;
+}
+
+.main-table,
+th,
+td {
+  border-bottom: 1px solid black;
+}
+
+th,
+td,
+form {
+  padding: 4px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+tr:hover {
+  color: white;
+  background-color: grey;
+}
+
+.button-shop {
+  width: fit-content;
+  margin: auto;
+}
+/* -----------------END SHOP TABLE----------------- */
+
+/* -----------------GALLERY PAGE----------------- */
+.div-gallery-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* justify-items: center; */
+  flex-wrap: wrap;
+}
+
+.div-gallery-section > img {
+  width: 35%;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+/* -----------------END GALLERY PAGE----------------- */
+/* ---------------------------------------------------SECUNDARY WEBPAGES--------------------------------------------------- */
+
+

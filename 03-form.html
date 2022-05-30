@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- he puesto lang=zxx para que me reconozca el latín y no me dé ningún warning en la validation tool -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LINK TO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINK TO FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./images/00_favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- LINK TO CSS FILE -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Agencia Pagés_form</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header-class">
+      <h1>agencia PAGÉS</h1>
+    </header>
+    <!-- FIN HEADER -->
+    
+    <h4>Inquiry form</h4>
+    <p class="form-paragraph">leave us your questions or suggests in the following form:</p>
+
+    <!-- FORM -->
+
+    <form action="/action_page.php" autocomplete="on">
+      <label for="first-name">Full name</label>
+      <input type="text" name="first-name" id="first-name" />
+      <label for="user-email">email </label>
+      <input type="email" name="user-email" id="user-email" required />
+
+      <!-- DROPDOWN -->
+      <label for="query">Query</label>
+      <select name="query" id="query">
+        <option value="no-referrer-when-downgrade">--</option>
+        <option value="question">Questions</option>
+        <option value="suggestion">Suggestions</option>
+        <option value="refund">Returns</option>
+        <option value="other">Others</option>
+      </select>
+      <!-- FIN DROPDOWN -->
+
+      <label for="user-message">Details</label>
+      <textarea name="user-message" id="user-message" cols="30" rows="10">
+      </textarea>
+
+      <!-- BUTTON -->
+      <button class="class-button"
+        type="button"
+        onclick="alert('Your message has been sent successfully!')"
+      >
+        Send
+      </button>
+      <!-- FIN BUTTON -->
+
+      <!-- FIN FORM -->
+    </form>
+  </body>
+</html>
